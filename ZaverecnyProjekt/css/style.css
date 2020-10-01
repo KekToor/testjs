@@ -1,0 +1,120 @@
+.animace
+           {
+               animation: fade 0.5s ease-in;
+           }
+           @keyframes fade{
+                from{
+                    opacity: 0;
+            }
+                to{
+                    opacity: 1;
+            }
+           }
+           @keyframes fade2{
+            0%{opacity: 0;}
+            60%{opacity: 0;}
+            100%{opacity: 1;}
+       }
+.animace2
+           {
+               animation: fade2 1.5s ease-in;
+           }
+.animace3
+           {
+                animation: fade2 2s ease-in;
+            }
+.animace4
+            {
+                animation: fade2 2.5s ease-in;
+            }
+.text-white
+{
+    color: white;
+}
+.bg-black
+{
+    background-color: black;
+}
+.bg-darkgray
+{
+    background-color: #333333;
+}
+.bg-white
+{
+    background-color: white;
+}
+.bg-14
+{
+    background-color: #141414;
+}
+.height-540
+{
+    height:540px
+}
+.o-8
+{
+    opacity: 0.8;
+}
+.o-9
+{
+    opacity: 0.9;
+}
+.justify-content-center
+{
+    justify-content: center
+}
+.ml-7{
+    margin-left: 7%;
+}
+.whitelink{
+    color: goldenrod;
+    opacity: 0.8;
+}
+a:hover{
+    color: gold;
+}
+.font2em{
+    font-size: 1.8em;
+}
+.btn-success{
+    background-color: goldenrod;
+    border:goldenrod;
+}
+.btn-success:hover{
+    background-color: gold;
+    border: gold;
+}
+.btn-success:active{
+    background-color: gold;
+    border: gold;
+}
+.h-18{
+    height: 18%;
+}
+.w-32{
+    width: 32%;
+}
+.smalltext{
+    font-size: 0.25em;
+}
+.h-36{
+    height: 36%;
+}
+.w-64{
+    width: 64%;
+}
+.pt-10{
+    padding-top: 10%;
+}
+.light-mode{
+    color: black !important;
+    background-color: white !important;
+}
+.gray-mode{
+    color: black !important;
+    background-color: gray !important;
+}
+.lightgray-mode{
+    color: black !important;
+    background-color: lightgray !important;
+}
